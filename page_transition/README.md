@@ -2,15 +2,23 @@
 
 A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+You all know that routing in flutter is easy, we just need to push to pop in order to route from one page to another.
+Push:
+Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => const SecondRoute()),
+  );
+// or
+Navigator.of(context).push(
+    MaterialPageRoute(builder: (context) => const SecondRoute()),
+  );
+Pop: 
+Navigator.pop(context);
+//or
+Navigator.of(context).pop();
+but you know what, we can add animation to the above routing. Yes, It's possible and we will use PageRouteBuilder to do so.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+https://user-images.githubusercontent.com/42611371/184593411-20f59bc9-c639-4a60-83f1-973edf6d410f.mp4
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
