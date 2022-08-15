@@ -22,3 +22,6 @@ but you know what, we can add animation to the above routing. Yes, It's possible
 
 https://user-images.githubusercontent.com/42611371/184593411-20f59bc9-c639-4a60-83f1-973edf6d410f.mp4
 
+
+Read more about this on my Medium Blog:
+https://medium.com/@avnishnishad/flutter-all-you-need-to-know-about-animated-routing-85d4921064da?postPublishedType=initial
